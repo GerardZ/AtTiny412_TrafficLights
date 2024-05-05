@@ -12,3 +12,7 @@ Techniques:
 
 - Led multiplexing
 - AtTiny412
+
+Programmer:
+
+I use a USB-C CH340 board, it is fitted with a 1k resistor seated between Rx and Tx, Rx is UPDI interface. IMPORANT: To get the thing going, I had to remove the leds fom the board. On hindsight, the Rx led would probably be sufficient but I removed all three of them (or there resistors)
