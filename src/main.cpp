@@ -113,6 +113,8 @@ void DoAction(Action action)
   case PAUSE3:
     delay(4000);
     return;
+
+    // misc
   case ClrAll:
     ClearAll();
     return;
@@ -198,8 +200,8 @@ void setup()
 uint8_t pgmCount = 0;
 void loop()
 {
-  DoAction(program[pgmCount]);
+  DoAction(program[pgmCount++ % sizeof(program)]);
 
-  pgmCount++;
-  pgmCount = pgmCount % sizeof(program);
+  //pgmCount++;
+  //pgmCount = pgmCount % sizeof(program);
 }
