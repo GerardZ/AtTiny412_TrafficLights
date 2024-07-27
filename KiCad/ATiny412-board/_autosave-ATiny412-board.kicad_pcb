@@ -5755,7 +5755,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "771ec9d5-2872-4f65-8e5f-4c72f8ac4bb2")
-		(at 67.056 138.677 180)
+		(at 54.864 83.82 180)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -5971,7 +5971,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "80a0f33f-1bf4-4ba4-bb05-7dcf677966cb")
-		(at 67.056 132.097 180)
+		(at 65.532 83.82 180)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -6619,7 +6619,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "98a6c47e-ff76-4501-a510-787ce1ae37c7")
-		(at 67.056 135.387 180)
+		(at 60.198 83.82 180)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -7314,6 +7314,17 @@
 		(layer "B.Cu")
 		(uuid "545789fa-6df6-4bda-99f4-97f17c0ec79d")
 	)
+	(gr_rect
+		(start 30.48 45.72)
+		(end 57.658 56.134)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "B.Cu")
+		(uuid "549d3663-4b33-4328-9b74-47c7ca43239d")
+	)
 	(gr_line
 		(start 100.33 124.973)
 		(end 67.056 124.973)
@@ -7353,6 +7364,17 @@
 		)
 		(layer "B.Cu")
 		(uuid "9b3a5456-2895-49bf-8bdf-8fcc0d510b8f")
+	)
+	(gr_rect
+		(start 30.48 60.833)
+		(end 57.658 71.247)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "B.Cu")
+		(uuid "9f7d81a5-b037-4d60-8929-72b99688f295")
 	)
 	(gr_line
 		(start 39.878 116.083)

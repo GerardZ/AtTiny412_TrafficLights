@@ -90,9 +90,19 @@ void DoAction(Action action)
     trafficlights.g2 = true;
     return;
 
+  // following will turn on Led and turns off ALL others.
+  case ccYEL1_on:
+    ClearAll();
+    trafficlights.y1 = true;
+    return;
+  case ccYEL2_on:
+    ClearAll();
+    trafficlights.y2 = true;
+    return;
+
   // pause`s....
   case PAUSE0:
-    delay(700);
+    delay(500);
     return;
   case PAUSE1:
     delay(1500);
@@ -108,6 +118,13 @@ void DoAction(Action action)
     return;
   }
 }
+
+Action program1[] = {
+    ccYEL2_on,
+    PAUSE0,
+    ccYEL1_on,
+    PAUSE0,
+    };
 
 Action program[] = {
     cRED1_on,

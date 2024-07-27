@@ -38,6 +38,8 @@ enum Action : uint8_t
   cYEL2_on,
   cGRN1_on,
   cGRN2_on,
+  ccYEL1_on,  // Turn on YEL1, turn off ALL others
+  ccYEL2_on,
   PAUSE0,     // pause 0
   PAUSE1,
   PAUSE2,
